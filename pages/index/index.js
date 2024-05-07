@@ -64,9 +64,9 @@ Page({
     })
   },
   handleButtonClick(){
-    console.log("hh")
+    console.log("成功登录")
     wx.navigateTo({
-      url: '/pages/logs/logs',
+      url: '/pages/list/list',
     })
   },
   onChooseAvatar(e) {
@@ -97,5 +97,8 @@ Page({
         })
       }
     })
+  },
+  onShow: function () {
+    wx.hideTabBar();
   },
 })

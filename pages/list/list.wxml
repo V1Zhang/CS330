@@ -9,4 +9,5 @@
       </navigator>  
     </view>
   </view>
+  <custom-tab-bar wx:if="{{showTabBar}}" show="{{false}}"></custom-tab-bar>
 </view>  

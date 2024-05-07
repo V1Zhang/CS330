@@ -1,5 +1,6 @@
 Page({
   data: {
+    showTabBar: true, // 默认显示 tabBar
     routers: [
       {
         id: '0',
@@ -14,6 +15,11 @@ Page({
         icon: '../../image/couple.png'
       }
     ]
+  },
+  onHideTabBar: function() {
+    this.setData({
+      showTabBar: false
+    });
   },
   toPage: function (event) {
     console.info(event.currentTarget.id);
@@ -46,7 +52,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    wx.showTabBar();
   },
 
   /**

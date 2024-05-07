@@ -1,6 +1,6 @@
 <view class="container">
 <view class="title">
-  <text>情侣对眼相悦！</text>  
+  <text>-情侣对眼相悦-</text>  
 </view>
 <view class="img_wrap1">
     <image class="img1" src="../../image/heart.png"/>

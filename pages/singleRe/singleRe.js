@@ -16,4 +16,7 @@ Page({
   return: function(e) {
     wx.navigateBack({})
   },
+  onShow: function () {
+    wx.showTabBar();
+  },
 });

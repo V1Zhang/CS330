@@ -4,12 +4,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 20rpx 0;
+  padding: 10rpx 0;
   box-sizing: border-box;
 }
 
 .img_wrap{
-  width: 70%;
+  width: 50%;
+  margin-top: -50px; /* 调整上方距离 */
+  margin-bottom: -50px; /* 调整下方距离 */
 }
 
 .img{
@@ -44,7 +46,7 @@
   text-align: center;
   font-weight: bolder;
   letter-spacing: 12px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .text{
@@ -60,7 +62,7 @@
   box-sizing: border-box;
   border:2px  rgb(192, 192, 192) solid;
   background-color: rgb(235, 235, 233);
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .submit {
